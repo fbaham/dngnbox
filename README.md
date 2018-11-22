@@ -16,7 +16,7 @@ In your host machine create the folder ~/code/rails and create your rails app he
 - MySQL user: dngnbox
 - MySQL password : dngnbox
 
-Add the following code to your .bashrc file to create shorcuts
+Add the following code in your .bashrc file to create shorcuts
 ~~~~
 # vagrant up shorcut
 function dngnboxup() {
