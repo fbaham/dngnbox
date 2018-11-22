@@ -11,7 +11,10 @@ a Vagrant box for Rails developers
 - Heroku 7.18.9
 
 ## Installation
-In your host machine create the folder '~/code/rails' and generate your rails app here, this folder is synced with '/vagrant' folder in the box.
+In your host machine create the folder '~/code/rails'. In the box type: 
+~~~~
+cd /vagrant && rails new myapp
+~~~~
 
 ## Config
 - PostgreSQL user: dngnbox
