@@ -9,7 +9,7 @@
 - Git 2.17.1
 
 ## Installation
-In your host machine create the folder ~/code/rails and create your rails app here
+In your host machine create the folder '~/code/rails' and generate your rails app here, this folder is synced with '/vagrant' folder in the box.
 
 ## Config
 - PostgreSQL user: dngnbox
