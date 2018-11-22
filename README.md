@@ -9,7 +9,8 @@
 - MySQL 14.14
 - Git 2.17.1
 
-## PostgreSQL user: dngnbox
-## MySQL user: dngnbox
-## MySQL password : dngnbox
+## Config
+- PostgreSQL user: dngnbox
+- MySQL user: dngnbox
+- MySQL password : dngnbox
 
