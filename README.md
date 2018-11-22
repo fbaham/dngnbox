@@ -9,8 +9,8 @@
 - MySQL 14.14
 - Git 2.17.1
 
-## Usage
-> mkdir ~/code && rails new app
+## Installation
+In your host machine create the folder ~/code/rails and create your rails app here
 
 ## Config
 - PostgreSQL user: dngnbox
