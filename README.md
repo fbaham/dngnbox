@@ -8,6 +8,7 @@ a Vagrant box for Rails developers
 - PostgreSQL 10.6
 - MySQL 14.14
 - Git 2.17.1
+- Heroku 7.18.9
 
 ## Installation
 In your host machine create the folder '~/code/rails' and generate your rails app here, this folder is synced with '/vagrant' folder in the box.
