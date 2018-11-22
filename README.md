@@ -1,4 +1,5 @@
-# DNGNbox a Vagrant box for Rails developers
+# DNGNbox
+## a Vagrant box for Rails developers
 - Rails 5.2.1
 - Ruby 2.5.1
 - rvm 1.29.4
