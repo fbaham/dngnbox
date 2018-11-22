@@ -1,5 +1,4 @@
 # DNGNbox a Vagrant box for Rails developers
-
 - Rails 5.2.1
 - Ruby 2.5.1
 - rvm 1.29.4
@@ -17,3 +16,15 @@ In your host machine create the folder ~/code/rails and create your rails app he
 - MySQL user: dngnbox
 - MySQL password : dngnbox
 
+Add the following code to your .bashrc file to create shorcuts
+~~~~
+# vagrant up shorcut
+function dngnboxup() {
+    ( cd ~/dngnbox && vagrant up )
+}
+
+# vagrant ssh shorcut
+function dngnboxssh() {
+	( cd ~/dngnbox && vagrant ssh )
+}
+~~~~
