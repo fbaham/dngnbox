@@ -11,7 +11,7 @@ a Vagrant box for Rails developers
 - Heroku 7.18.9
 
 ## Installation
-In your host machine create the folder '~/code/rails' and in the guest machine type: 
+First clone this repository in your home folder, then in your host machine create the folder '~/code/rails' and in the guest machine type: 
 ~~~~
 cd /vagrant && rails new myapp
 ~~~~
