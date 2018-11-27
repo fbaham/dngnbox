@@ -9,6 +9,9 @@
 - MySQL 14.14
 - Git 2.17.1
 
+## Usage
+> mkdir ~/code && rails new app
+
 ## Config
 - PostgreSQL user: dngnbox
 - MySQL user: dngnbox
