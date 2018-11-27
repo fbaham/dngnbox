@@ -34,13 +34,8 @@ cd /vagrant && rails new myapp
 
 Add the following code in your .bashrc file to create shorcuts
 ~~~~
-# vagrant up shorcut
-function dnup() {
-    ( cd ~/dngnbox && vagrant up )
-}
-
-# vagrant ssh shorcut
-function dnssh() {
-    ( cd ~/dngnbox && vagrant ssh )
+# dngnbox vagrant shorcut
+function dngnbox() {
+    ( cd ~/dngnbox && vagrant $1 )
 }
 ~~~~
