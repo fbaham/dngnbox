@@ -24,9 +24,6 @@ And in the guest machine type
 cd /vagrant && rails new myapp
 ~~~~
 
-## Usage
-> mkdir ~/code && rails new app
-
 ## Config
 - PostgreSQL user: dngnbox
 - MySQL user: dngnbox
