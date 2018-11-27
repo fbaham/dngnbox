@@ -12,7 +12,8 @@ Vagrant.configure("2") do |config|
       'modifyvm', :id,
       '--nictype1', 'virtio',
       '--name', name,
-      '--natdnshostresolver1', 'on'
+      '--natdnshostresolver1', 'on',
+      '--uartmode1', 'disconnected'
     ]
   end
 
