@@ -16,7 +16,9 @@ Vagrant.configure("2") do |config|
       '--uartmode1', 'disconnected'
     ]
   end
-
+  
   # rails
   config.vm.network 'forwarded_port', guest: 3000, host: 3000
+  # Script provision
+  config.vm.provision "shell", privileged: false, path: "script.sh"
 end

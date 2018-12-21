@@ -1,6 +1,6 @@
 # DNGNbox
 a Vagrant box for Rails developers
-- Rails 5.2.1
+- Rails 5.2.2
 - Ruby 2.5.1
 - rvm 1.29.4
 - Nodejs v8.10.0
