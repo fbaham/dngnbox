@@ -29,7 +29,7 @@ cd /vagrant && rails new myapp
 - MySQL user: dngnbox
 - MySQL password : dngnbox
 
-Add the following code in your .bashrc file to create shorcuts
+Add the following code in your .bash_profile file to create shorcuts
 ~~~~
 # dngnbox vagrant shorcut
 function dngnbox() {
