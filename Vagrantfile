@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
   config.vm.box = 'dngnmster/dngnbox'
-  config.vm.box_version = "20181221.0.1"
+  config.vm.box_version = "20190124.0.1"
   name = File.basename(Dir.getwd) + '-dev'
 
   config.vm.synced_folder '~/code/rails', '/vagrant'
@@ -22,5 +22,4 @@ Vagrant.configure("2") do |config|
   config.vm.network 'forwarded_port', guest: 3000, host: 3000
   # Script provision
   config.vm.provision "shell", privileged: false, path: "script.sh"
-  config.vm.provision "shell", privileged: true, path: "pg.sh"
 end
